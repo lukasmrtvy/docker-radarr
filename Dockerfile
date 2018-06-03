@@ -37,4 +37,5 @@ LABEL version=${VERSION}
 LABEL url=${URL}
 
 
+
 ENTRYPOINT ["mono", "/opt/radarr/Radarr.exe", "--no-browser -data=/config"]
